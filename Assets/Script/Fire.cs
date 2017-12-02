@@ -12,6 +12,6 @@ public class Fire : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		_spriteRenderer.enabled = Input.GetKey(KeyCode.Space);
+		_spriteRenderer.enabled = Input.GetKey(KeyCode.W);
 	}
 }

@@ -22,7 +22,7 @@ public class CoreController : MonoBehaviour {
 			rb2d.AddTorque(-rotSpeed);
 		}
 		
-		if (Input.GetKey(KeyCode.Space) && rb2d.velocity.magnitude < maxSpeed) {
+		if (Input.GetKey(KeyCode.W) && rb2d.velocity.magnitude < maxSpeed) {
 			rb2d.AddForce(transform.up * speedMulti);
 		}
 	}
